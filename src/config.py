@@ -7,7 +7,7 @@ load_dotenv()
 
 class Settings:
     # DeepSeek API 配置
-    DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-6d01a34d2c6b4030b0a7598a1d0dd5f4")
+    DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-")
     DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
     DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 
